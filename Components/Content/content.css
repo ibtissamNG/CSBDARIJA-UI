@@ -1,0 +1,107 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.content{
+    height:100%;
+    width:100%;
+    background-color:#1D1E4F;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.L1{
+    height: 350px;
+    width:100%;
+    margin-top: 50px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+/*Image*/
+.I1{
+    height:300px;
+}
+
+/*Title and Paragraph*/
+.text1{
+    height:200px;
+    width:24%;
+    color:white;
+}
+.T1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.span{
+    border-bottom: 3px solid #B056E1;
+
+}
+
+.S{
+    text-decoration: none;
+}
+
+.P1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin-top: 25px;
+}
+
+
+/*PART2 : NEWS */
+.L2{
+    height: 350px;
+    width:100%;
+    flex-direction: row-reverse;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:50px;
+}
+
+
+/*PART 3 : PROBLEM SOLVING*/
+
+.L3{
+    height: 350px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:50px;
+}
+
+.I3{
+    width:400px;
+}
+
+
+/*PART 3 :  JOBS OFFERS */
+
+.L4{
+    height: 350px;
+    width:100%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:50px;
+}
+
+
+/* WACHHHHH ALMOURABIT */
+
+
+
+
+
+
+
