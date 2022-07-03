@@ -54,6 +54,10 @@ body {
     padding-top: 50px;
 }
 
+.content-box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
 .content-box .image {
     height: 250px;
 }
