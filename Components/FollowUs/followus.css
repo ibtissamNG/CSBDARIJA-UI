@@ -42,14 +42,13 @@ body {
 /* END GLOBAL RULES */
 
 /* START FOLLOW US SECTION */
-
- .followUs {
+ .follow-us {
     background-color: #692E81;
     padding: 30px 0px 60px ;
     
  }
 
- .followUs .content h2{
+ .follow-us .content h2{
     margin:0;
     text-align:center;
     color:#FFFFFF;
@@ -57,7 +56,7 @@ body {
     font-weight: 700;
  }
 
- .followUs .content p{
+ .follow-us .content p{
     color:#D7D7D7;
     font-size: 14px;
     text-align:center;
@@ -66,12 +65,12 @@ body {
     padding:30px 0px;
  }
 
- .followUs .social-media{
+ .follow-us .social-media{
     width:60%;
     margin: 0px auto;
  }
 
- .followUs .social-media ul{
+ .follow-us .social-media ul{
     list-style-type: none;
     display:flex;
     justify-content:space-evenly;
@@ -80,44 +79,44 @@ body {
     padding:0;
  }
 
- .followUs .social-media ul li{
+ .follow-us .social-media ul li{
     background-color: #FFFFFF;
     padding:25px;
     border-radius: 50%;
     font-size:30px;
  }
 
- .followUs .social-media ul li:nth-child(1){
+ .follow-us .social-media ul li:nth-child(1){
     color: #FF0000;
  }
 
- .followUs .social-media ul li:nth-child(2){
+ .follow-us .social-media ul li:nth-child(2){
     color: #0072B1;
 }
 
-.followUs .social-media ul li:nth-child(3){
+.follow-us .social-media ul li:nth-child(3){
     color: #00ACEE;
 }
 
-.followUs .social-media ul li:nth-child(4){
+.follow-us .social-media ul li:nth-child(4){
     color: #4267B2;
 }
 
-.followUs .social-media ul li:nth-child(5){
+.follow-us .social-media ul li:nth-child(5){
     color: #1DB954;
 }
 
 
 @media (max-width: 768px) {
-    .followUs .content p{
+    .follow-us .content p{
         width:80%;
     }
 
-    .followUs .social-media{
+    .follow-us .social-media{
         width:100%;
     }
 
-    .followUs .social-media ul li{
+    .follow-us .social-media ul li{
         background-color: #FFFFFF;
         padding:15px;
         margin:5px;
@@ -125,10 +124,9 @@ body {
         font-size:30px;
      }
 }
-/* START FOLLOW US SECTION */
+/* END FOLLOW US SECTION */
 
 /* START FOOTER SECTION */
-
 footer {
     background-color: #000000;
     display:flex;
@@ -154,11 +152,5 @@ footer p{
         padding-top:0;
         padding-bottom:30px;
     }
-
 }
-
-
-
-
-
 /* END FOOTER SECTION */
