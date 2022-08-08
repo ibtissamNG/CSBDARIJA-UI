@@ -18,6 +18,12 @@ body {
     padding: 0 15px;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* MEDIA QUERY */
 /* SMALL */
 @media (min-width: 768px) {
@@ -71,8 +77,19 @@ body {
     font-weight: 700;
     color: #FFFFFF;
     display: inline-block;
-    border-bottom: 3px solid #B056E1;
+    text-transform: uppercase;
     margin: 0;
+    position: relative;
+}
+
+.content-box .text .title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 80%;
+    bottom: 0px;
+    left: 0;
+    background-color: #B056E1;
 }
 
 .content-box .text .paragraphe {
@@ -98,7 +115,5 @@ body {
         text-align: center;
         font-size: 25px;
     }
-
 }
-
 /* END CONTENT SECTION */
